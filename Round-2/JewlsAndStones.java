@@ -5,7 +5,7 @@ public class JewlsAndStones {
         String jewels = "aA";
         String stones = "aeAAe";
         int count = findJewlsAndStones(jewels, stones);
-        System.out.println(count);
+        System.out.println(count); 
     }
 
     private static int findJewlsAndStones(String jewels, String stones) {
