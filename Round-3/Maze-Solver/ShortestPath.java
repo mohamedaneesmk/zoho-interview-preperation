@@ -7,11 +7,11 @@ public class ShortestPath {
         int number = sc.nextInt();
         char[][] matrix = new char[number][number];
 
-        for(int row=0;row<number;row++){
+        for(int row=0;row<number;row++){ 
             for(int col=0;col<number;col++){
                 matrix[row][col]='0';
             }
-        }
+        } 
 
         System.out.print("Enter the adventure position (row and column) : ");
         int AdventureRow = sc.nextInt();
