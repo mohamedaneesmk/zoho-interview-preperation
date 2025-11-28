@@ -9,7 +9,7 @@ public class Rotate90Degrees {
         // System.out.println(matrix.length);
         rotate90Clockwise(matrix);
         printMatrix(matrix);
-    }
+    } 
 
     private static void printMatrix(int[][] matrix) {
         for (int[] row : matrix) {
