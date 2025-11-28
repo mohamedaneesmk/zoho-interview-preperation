@@ -9,7 +9,7 @@ public class KthSmallestElement {
     }
 
     private static int findKthSmallestElement(int[] nums, int k) {
-        if (k <= 0 || k > nums.length)
+        if (k <= 0 || k > nums.length) 
             return -1;
 
         PriorityQueue<Integer> minHeap = new PriorityQueue<>();
