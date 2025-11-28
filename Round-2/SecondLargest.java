@@ -21,7 +21,7 @@ public class SecondLargest {
 
     private static int findSecondLargest(int[] nums) {
         int max = Integer.MIN_VALUE;
-        int secondMax = Integer.MIN_VALUE;
+        int secondMax = Integer.MIN_VALUE; 
 
         for (int n : nums) {
             if (n > max) {
