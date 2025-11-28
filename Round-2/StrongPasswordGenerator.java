@@ -10,7 +10,7 @@ public class StrongPasswordGenerator {
         String name = scanner.nextLine().trim();
 
         System.out.print("Enter your date of birth (dd-mm-yyyy): ");
-        String dob = scanner.nextLine().trim();
+        String dob = scanner.nextLine().trim(); 
 
         // Validate and split DOB
         String[] dobParts = dob.split("-");
