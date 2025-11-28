@@ -11,7 +11,7 @@ public class TicTacToeWinner {
 
         // A = +1, B = -1
         int player = 1;
-
+ 
         for (int[] move : moves) {
             int row = move[0], col = move[1];
 
