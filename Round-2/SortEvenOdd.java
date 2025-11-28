@@ -21,7 +21,7 @@ class SortEvenOdd {
                 evenIndex.add(nums[index]); 
             else
                 oddIndex.add(nums[index]);
-        }
+        } 
 
         Collections.sort(evenIndex);
         oddIndex.sort(Collections.reverseOrder());
