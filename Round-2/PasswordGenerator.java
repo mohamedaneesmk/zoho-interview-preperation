@@ -9,7 +9,7 @@ public class PasswordGenerator {
         String lower = "abcdefghijklmnopqrstuvwxyz";
         String digits = "0123456789";
         String special = "@#$%&*!";
-
+ 
         String allChars = upper + lower + digits + special;
 
         Random random = new Random();
