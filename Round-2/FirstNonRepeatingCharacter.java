@@ -8,7 +8,7 @@ public class FirstNonRepeatingCharacter {
     public static Character findFirstNonRepeatingCharacter(String input){
         int length = input.length();
         if(length <= 1)
-            return null;
+            return null; 
         int[] count = new int[256];
         
         for(int i=0;i<length;i++){
