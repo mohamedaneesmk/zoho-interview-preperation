@@ -4,7 +4,7 @@ public class BitonicPoint {
         int result = findBitonicPoint(arr);
         System.out.println(result);
     }
-
+ 
     private static int findBitonicPoint(int[] arr) {
         int left = 0;
         int right = arr.length-1;
