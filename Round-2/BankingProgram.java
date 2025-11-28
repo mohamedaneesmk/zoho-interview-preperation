@@ -35,7 +35,7 @@ public class BankingProgram {
                 case 3:
                     withdrawCash(sc);
                     break;
-
+ 
                 case 4:
                     System.out.println("Thank you for using our bank. Goodbye!");
                     isRunning = false;
