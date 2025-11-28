@@ -13,7 +13,7 @@ public class StringCompression {
             if (str.charAt(i) != str.charAt(i - 1)) {
                 result.append(str.charAt(i - 1)).append(count);
                 count = 1; 
-            } else {
+            } else { 
                 count++;
             }
         }
