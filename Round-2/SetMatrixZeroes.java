@@ -12,7 +12,7 @@ public class SetMatrixZeroes {
             if (matrix[0][j] == 0) {
                 firstRowZero = true;
                 break;
-            }
+            } 
         }
 
         // 2. Check if first column has any zero
