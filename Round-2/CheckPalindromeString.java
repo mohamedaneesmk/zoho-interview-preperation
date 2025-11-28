@@ -11,7 +11,7 @@ public class CheckPalindromeString {
             System.out.println("The input string \"" + inputString + "\" is not a Palindrome.");
         sc.close();
     }
-
+ 
     private static boolean findPalindromeString(String inputString) {
         if (inputString.length() <= 1)
             return true;
