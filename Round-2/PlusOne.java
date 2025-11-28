@@ -32,7 +32,7 @@ public class PlusOne {
     public static void main(String[] args) {
         int[] nums = {9};
         int[] result = findPlusOne(nums);
-        System.out.println(Arrays.toString(result));
+        System.out.println(Arrays.toString(result)); 
     }
 
     private static int[] findPlusOne(int[] nums) {
