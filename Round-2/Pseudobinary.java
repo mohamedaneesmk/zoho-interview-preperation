@@ -6,7 +6,7 @@ public class Pseudobinary {
         int num = sc.nextInt();
         System.out.println(findPseudobinary(num));
         sc.close();
-    }
+    } 
 
     private static int findPseudobinary(int num){
         int maxNum = 0;
