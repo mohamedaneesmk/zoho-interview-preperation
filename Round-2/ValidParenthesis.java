@@ -74,7 +74,7 @@ public class ValidParenthesis {
             }
             else if(ch=='}'){
                 if(stack.peek()=='{'&& !stack.isEmpty()){
-                    stack.pop();
+                    stack.pop(); 
                 }
                 else return false;
             }
