@@ -7,10 +7,10 @@ public class EquilibriumIndex {
         System.out.println(index); 
     }
 
-    private static int findEquilibriumIndex(int[] nums) {
+    private static int findEquilibriumIndex(int[] nums) { 
         int totalSum = 0;
         int leftSum = 0;
-
+ 
         for (int num : nums)
             totalSum += num;
 
