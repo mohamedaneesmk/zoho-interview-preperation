@@ -14,7 +14,7 @@ public class OddCharCount {
         for (char ch : str.toCharArray()) {
             freq.put(ch, freq.getOrDefault(ch, 0) + 1);
         }
-
+ 
         for (char ch : freq.keySet()) {
             if (freq.get(ch) % 2 != 0)
                 result.append(ch);
