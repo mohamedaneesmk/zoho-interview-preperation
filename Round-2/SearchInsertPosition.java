@@ -22,7 +22,7 @@ public class SearchInsertPosition {
         int target = 7;
         int result = findInsertPosition(nums,target);
         System.out.println(result);
-    }
+    } 
 
     private static int findInsertPosition(int[] nums, int target) {
         if(target < nums[0])
