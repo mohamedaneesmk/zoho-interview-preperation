@@ -9,7 +9,7 @@ public class LongestUniqueSubstring {
     }
     
     private static int findLongestUniqueSubstring(String s) {
-        int start=0;
+        int start=0; 
         int end=0;
         int max_Length=0;
         List<Character> list=new ArrayList<>();
